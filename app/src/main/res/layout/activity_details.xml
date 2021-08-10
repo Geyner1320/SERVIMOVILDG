@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mecanico.details">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/ic_baseline_person_24"
+        tools:ignore="MissingConstraints,VectorDrawableCompat" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="NOMBRE USUARIO"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="TextView"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="REFERENCIA"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/ref"
+        android:layout_width="236dp"
+        android:layout_height="21dp"
+        android:layout_gravity="center_horizontal"
+        android:text="TextView"
+        android:layout_marginLeft="40dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="CONTACTO"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tel"
+        android:layout_width="127dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:text="TextView"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="74dp"
+        android:layout_height="19dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="@string/detalle"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/des"
+        android:layout_width="330dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/textbox_redondos"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="  Contenido"
+        android:inputType="textMultiLine"
+        android:textAlignment="textStart"
+        app:layout_constraintBottom_toTopOf="@+id/btncall"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        tools:ignore="MissingConstraints,RtlCompat" />
+
+
+
+    <Button
+        android:id="@+id/btncall"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:background="#36a420"
+        android:text="@string/call"
+        android:layout_gravity="center_horizontal"
+        tools:ignore="MissingConstraints,OnClick" />
+
+    <Button
+        android:id="@+id/btnservice"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:background="#36a420"
+        android:layout_marginTop="30dp"
+        android:text="@string/Tomar"
+        android:layout_gravity="center_horizontal"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>

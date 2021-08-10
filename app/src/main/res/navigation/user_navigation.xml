@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_navigation"
+    app:startDestination="@id/maps_service">
+
+    <fragment
+        android:id="@+id/inbox"
+        android:name="com.dgteam.servimovildg.usuario.inbox"
+        android:label="@string/Mensajes"
+        tools:layout="@layout/fragment_inbox"
+        />
+    <fragment
+        android:id="@+id/acercadeuser"
+        android:name="com.dgteam.servimovildg.usuario.acercadeuser"
+        android:label="@string/acerca_de"
+        tools:layout="@layout/fragment_acercadeuser"
+        />
+    <fragment
+        android:id="@+id/pays"
+        android:name="com.dgteam.servimovildg.usuario.pays"
+        android:label="@string/my_pay"
+        tools:layout="@layout/fragment_pays" />
+    <fragment
+        android:id="@+id/maps_service"
+        android:name="com.dgteam.servimovildg.usuario.Maps_service"
+        android:label="@string/Solicitar_Servicio"
+        tools:layout="@layout/fragment_maps_service"
+        />
+    <fragment
+        android:id="@+id/my_perfil"
+        android:name="com.dgteam.servimovildg.usuario.Perfil"
+        android:label="@string/perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/user_list"
+        android:name="com.dgteam.servimovildg.usuario.mecanicos_list"
+        android:label="@string/Frecuentes"
+        tools:layout="@layout/fragment_user_list" />
+
+</navigation>

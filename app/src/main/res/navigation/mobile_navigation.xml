@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_navigation"
+    app:startDestination="@id/maps_search">
+    <fragment
+        android:id="@+id/inbox_mechanic"
+        android:name="com.dgteam.servimovildg.mecanico.inbox_mechanic"
+        android:label="@string/Mensajes"
+        tools:layout="@layout/fragment_inbox_mechanic" />
+    <fragment
+        android:id="@+id/acercademechanic"
+        android:name="com.dgteam.servimovildg.mecanico.acercademechanic"
+        android:label="@string/acerca_de"
+        tools:layout="@layout/fragment_acercademechanic" />
+    <fragment
+        android:id="@+id/cashing_mechanic"
+        android:name="com.dgteam.servimovildg.mecanico.cashing_mechanic"
+        android:label="@string/cobro"
+        tools:layout="@layout/fragment_cashing_mechanic" />
+    <fragment
+        android:id="@+id/maps_search"
+        android:name="com.dgteam.servimovildg.mecanico.Maps_search"
+        android:label="@string/buscar"
+        tools:layout="@layout/fragment_maps_search" />
+    <fragment
+        android:id="@+id/perfil_mechanic"
+        android:name="com.dgteam.servimovildg.mecanico.Perfil_mechanic"
+        android:label="@string/perfil"
+        tools:layout="@layout/fragment_perfil_mechanic" />
+    <fragment
+        android:id="@+id/service_finish"
+        android:name="com.dgteam.servimovildg.mecanico.service_finish"
+        android:label="@string/finish"
+        tools:layout="@layout/fragment_service_finish" />
+    <fragment
+        android:id="@+id/mechanicListFragment"
+        android:name="com.dgteam.servimovildg.mecanico.MechanicListFragment"
+        android:label="Usuarios Frecuentes"
+        tools:layout="@layout/fragment_mechanic_list" />
+</navigation>

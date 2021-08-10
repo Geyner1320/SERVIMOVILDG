@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_registro">RegistroActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_master_page">master_page</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Mensajes">Mensajes</string>
+    <string name="Solicitar_Servicio">Solicitar servicio</string>
+    <string name="mecanico_favorito">Mecanico favorito</string>
+    <string name="my_pay">Mis pagos</string>
+    <string name="out">Cerrar sesión</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_master_page_mechanic">master_page_mechanic</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="Bandeja">Mensajes</string>
+    <string name="buscar">Buscar servicio</string>
+    <string name="acerca_de">ServiMovilDG</string>
+    <string name="cobro">Mis cobros</string>
+    <string name="WELCOME_USER">BIENVENIDO USUARIO:</string>
+    <string name="WELCOME_MECHANICAL">BIENVENIDO MECANICO:</string>
+    <string name="NAME_ORGANITATION">ServimovilDG</string>
+    <string name="acercade">ServiMovilDG</string>
+    <string name="cerrar">Cerrar sesión</string>
+    <string name="perfil">Mi Perfil</string>
+    <string name="Nombre">Nombre :</string>
+    <string name="Apellido">Apellido :</string>
+    <string name="Identificacion">No. identificación  :</string>
+    <string name="correo">Correo :</string>
+    <string name="actua">ACTUALIZAR</string>
+    <string name="habil">HABILITAR</string>
+
+    <string name="Datos">DATOS PERSONALES</string>
+    <string name="taller">DATOS TALLER</string>
+    <string name="nameT">Nombre del taller:</string>
+    <string name="nit">Nit:</string>
+    <string name="especial">Especialidad:</string>
+    <string name="direc">Dirección:</string>
+
+    <string name="Frecuentes">Mecánicos frecuentes</string>
+    <string name="valorN">Randy Rivera Jimenez</string>
+    <string name="detalle">DETALLE</string>
+    <string name="valorD">Cambio de bateria descargada.</string>
+    <string name="fech">Fecha:</string>
+    <string name="comen">Comentario:</string>
+    <string name="comenta">Muy buena atención.</string>
+    <string name="fecha">22/05/2021</string>
+    <string name="title_activity_inbox">activity_inbox</string>
+    <string name="chat">Chat</string>
+    <string name="Cali">Calificación:</string>
+    <string name="title_activity_request_service">Request_service</string>
+    <string name="Detail">Descripción:</string>
+    <string name="vehiculo">Referencia del vehiculo:</string>
+    <string name="Celu">Numero celular:</string>
+    <string name="registrar">Registrar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="dialogo">A continuación empezaras a interactuar con la aplicación ServiMovilDG, Si deseas solicitar el servicio de un mecanico presiona el boton aceptar sino entonces presiona el boton cancelar y podras interactuar con las diferentes funciones que te ofrece ServiMovilDG</string>
+    <string name="welcome">BIENVENIDO A SERVIMOVILDG</string>
+    <string name="aceptar">ACEPTAR</string>
+    <string name="pregunta">¿Quieres Solicitar el servicio de un mecanico?</string>
+    <string name="dialogo2">A continuación empezaras a interactuar con la aplicación ServiMovilDG, Si deseas buscar servicios solicitados por el usuario  presiona el boton aceptar sino entonces presiona el boton cancelar y podras interactuar con las diferentes funciones que te ofrece la aplicacion.</string>
+    <string name="solicitud">Listado de solicitudes</string>
+    <string name="preguntaM">¿Deseas conocer el listado de solicitudes?</string>
+    <string name="Tema">Tema de la situación:</string>
+    <string name="call">Llamar</string>
+    <string name="Tomar">Tomar Servicio</string>
+    <string name="confirmacion">¿Esta seguro de tomar este servicio?</string>
+    <string name="cancelar">SOLICITUD NO ES POSIBLE.</string>
+    <string name="mecanico">SOLICITUD ACEPTADA.</string>
+    <string name="mecanico1">SOLICITUD NO TOMADA.</string>
+    <string name="det">Detalle de la solicitud</string>
+    <string name="suce">CASO TERMINADO</string>
+    <string name="suces">MECANICO LLEGO!!</string>
+    <string name="sucesss">EMPIEZA TU CAMINO</string>
+    <string name="sucess">CONTINUA!!</string>
+    <string name="lista">Lista de solicitudes</string>
+    <string name="form">SOLICITUD DE UN SERVICIO</string>
+    <string name="solicitar">SOLICITAR</string>
+    <string name="esperando">ESPERANDO MECANICO</string>
+    <string name="finish">Servicios</string>
+    <string name="title_activity_maps_users">Map</string>
+</resources>

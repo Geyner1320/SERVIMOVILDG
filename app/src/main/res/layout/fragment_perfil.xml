@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".usuario.Perfil">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="236dp"
+        android:layout_height="112dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/ic_undraw_profile_re_4a55" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="86dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Nombre" />
+    <EditText
+        android:id="@+id/txtname"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="250dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/textbox_redondos"
+        android:ems="20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <TextView
+        android:id="@+id/lastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="86dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Apellido" />
+    <EditText
+        android:id="@+id/txtlastname"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="330dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/textbox_redondos"
+        android:ems="20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/iden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginRight="55dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Identificacion" />
+    <EditText
+        android:id="@+id/txtiden"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="410dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/textbox_redondos"
+        android:ems="20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:layout_marginRight="86dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/correo" />
+    <EditText
+        android:id="@+id/txtemail"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="490dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/textbox_redondos"
+        android:ems="20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <Button
+        android:id="@+id/btnhabilitar"
+        android:layout_width="114dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginLeft="60dp"
+        android:text="@string/habil"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        android:background="@drawable/boton_redondo" />
+
+    <Button
+        android:id="@+id/btnactualizar"
+        android:layout_width="137dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/boton_redondo"
+        android:text="@string/actua"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+</FrameLayout>

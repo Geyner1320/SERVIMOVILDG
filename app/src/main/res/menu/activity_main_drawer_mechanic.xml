@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/perfil_mechanic"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="@string/perfil" />
+        <item
+            android:id="@+id/mechanicListFragment"
+            android:icon="@drawable/ic_baseline_move_to_inbox_24"
+            android:title="@string/Bandeja" />
+        <item
+            android:id="@+id/maps_search"
+            android:icon="@drawable/ic_baseline_location_on_24"
+            android:title="@string/buscar" />
+        <item
+            android:id="@+id/cashing_mechanic"
+            android:icon="@drawable/ic_baseline_payment_24"
+            android:title="@string/cobro" />
+        <item
+            android:id="@+id/service_finish"
+            android:icon="@drawable/ic_baseline_check_circle_24"
+            android:title="@string/finish" />
+        <item
+            android:id="@+id/acercademechanic"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="@string/acerca_de" />
+    </group>
+</menu>
